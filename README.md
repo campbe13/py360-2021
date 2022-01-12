@@ -3,16 +3,18 @@ This workspace is for all code used for
 teaching Introductory Python to Science students
 
 You can read the files directly from the git server interface,  you can copy them individually, 
-use the raw format if you do so. Or you can download everything, on the main page there is a button to download as a zip file: ![clone or download](cloneOrDownload.PNG "Clone or Download")
+use the raw format if you do so. Or you can download everything, on the main page there is a button to download as a zip file: ![image](https://user-images.githubusercontent.com/1751207/149207755-39ce3c9e-033b-4309-8014-55cf0588ed05.png)
+
 ## Dev set up
-### Own computer
+### use repl.it
+Follow the teacher's instructions to create an account
+* [repl.it](https://replit.com/)
+### Own computer (optional)
 * Install [python](https://www.python.org/downloads/) choose the latest of v3
 * Use any text editor, I really like [vscode](https://code.visualstudio.com/)  on Windows or Linux so I use that as an editor
-### use repl.it
-* [repl.it](https://replit.com/)
 ## running the code samples 
 Python is interpreted so it checks your code & runs it
-For example I have hello.py:
+For example I have a file hello.py:
 ```python
 #  My first program
 #  PCampbell
