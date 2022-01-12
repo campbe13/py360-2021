@@ -35,7 +35,7 @@ git clone https://github.com/campbe13/JavaSourceSamples360.git
 Windows or OS X first install git bash: https://git-scm.com/downloads
 -->
 ## License
-This code is [licensed under Apache 2.0](LICENSE.txt) The code here is written as examples
+This code is [licensed under Apache 2.0](LICENSE.md) The code here is written as examples
 and is stripped down in  order to illustrate specific objectives for teaching. 
 Therefore there may be missing components that would normally be included. 
 
