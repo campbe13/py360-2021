@@ -12,6 +12,8 @@ Follow the teacher's instructions to create an account
 ### Own computer (optional)
 * Install [python](https://www.python.org/downloads/) choose the latest of v3
 * Use any text editor, I really like [vscode](https://code.visualstudio.com/)  on Windows or Linux so I use that as an editor
+## lecture slides (for reference)
+[onedrive shared](https://collegedawson-my.sharepoint.com/:f:/g/personal/pcampbell_dawsoncollege_qc_ca/Eq-UO667LqFLmLbB19zqLKABHEbkX8xkKDeVk6-rRSbGyw?e=UqzgsX)
 ## running the code samples 
 Python is interpreted so it checks your code & runs it
 For example I have a file hello.py:
