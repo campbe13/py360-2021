@@ -1,3 +1,12 @@
+# Teacher resources
+For use during the course
+## use with labs /lectures 
+* https://realpython.com/python-f-strings/ 
+
+
+## sources for exercises & demos, and some tools
+Used https://www.online-python.com/ in lecture 1
+
 Try a couple https://noeticforce.com/python-online-compiler-interpreter-code-editors  for code snippets
 I think I will mostly use repl.it
 
