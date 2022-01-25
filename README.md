@@ -2,6 +2,8 @@
 This workspace is for all code used for
 teaching Introductory Python to Science students
 
+[Code associated with lectures](lecture-code)
+---
 You can read the files directly from the git server interface,  you can copy them individually, 
 use the raw format if you do so. Or you can download everything, on the main page there is a button to download as a zip file: ![image](https://user-images.githubusercontent.com/1751207/149207755-39ce3c9e-033b-4309-8014-55cf0588ed05.png)
 
@@ -13,9 +15,14 @@ Follow the teacher's instructions to create an account
 * Install [python](https://www.python.org/downloads/) choose the latest of v3
 * Use any text editor, I really like [vscode](https://code.visualstudio.com/)  on Windows or Linux so I use that as an editor
 ## lecture slides (for reference)
-[onedrive shared](https://collegedawson-my.sharepoint.com/:f:/g/personal/pcampbell_dawsoncollege_qc_ca/Eq-UO667LqFLmLbB19zqLKABHEbkX8xkKDeVk6-rRSbGyw?e=UqzgsX) material shared by the teacher, lecture slides, assignments, etc.
+[onedrive shared](https://collegedawson-my.sharepoint.com/:f:/g/personal/pcampbell_dawsoncollege_qc_ca/EsJwpKt7topFqfeQXE7t2FQBBzsqeE2XbXqlYikRF0Cgcw?e=BQW4d8) material shared by the teacher, lecture slides, assignments, etc.
 ## running the code samples 
-Python is interpreted so it checks your code & runs it
+### using an online ide (ex repl.it or other)
+Copy the raw code to your ide, then run it.  
+
+Note: the teacher has been using https://www.online-python.com/  for some code in class.
+### Own computer
+Python is interpreted so it checks your code & runs it (provided you have installed pythn on your system see Dev set up)
 For example I have a file hello.py:
 ```python
 #  My first program
