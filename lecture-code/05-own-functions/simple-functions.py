@@ -1,4 +1,6 @@
 # writing your  own functions
+# from exercises 05-01 
+# teacher demo
 # pmcampbell
 # 2022-02-07
 
