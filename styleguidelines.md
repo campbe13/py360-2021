@@ -14,7 +14,7 @@
 ## Example
 ```python
 ''' 
-This function adds 5 
+add_five: This function adds 5 to the parameter and returns that value
 parameter num: a  number
 returns:  the given number plus 5
 '''
