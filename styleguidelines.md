@@ -35,7 +35,7 @@ print(add_five(num))
 ### Rules you must follow or else there will be a syntax error 
 * name must start with a letter (or underscore _do not use underscore this way_)
 * can contain letters, digits , and underscores
-* variable names are case sensitive  (so `Add_tax` and `add_tax and `Add_Tax` ... would be considered different functions (don't do this, it would be confusing))
+* variable names are case sensitive  (so `Add_tax` and `add_tax` and `Add_Tax` ... would be considered different functions (don't do this on purpose, it would be confusing))
 * cannot be a **reserved** keyword
     * certain words already have a meaning in Python
     * if you tried to use the word as a variable or function name, Python would be confused about what you wanted to do
