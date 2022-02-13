@@ -48,8 +48,12 @@ print(add_five(num))
 ### Example
 ```python
 # good names
-area_right_triangle() 
+area_right_triangle()
+length
+height
 # bad name
 a()
 area()
+l
+h
 ```
