@@ -51,7 +51,7 @@ print(add_five(num))
 area_right_triangle()
 length
 height
-# bad name
+# bad names
 a()
 area()
 l
