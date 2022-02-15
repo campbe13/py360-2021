@@ -54,7 +54,7 @@ def alt2_magic_8_ball():
   elif shake == 5:
     msg =  "Reply hazy, try again."
   elif shake == 6:
-    return "● Ask again later."
+    msg =  "● Ask again later."
   elif shake == 7:
     msg =  "● Better not tell you now."
   else:
