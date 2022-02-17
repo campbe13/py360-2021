@@ -5,4 +5,4 @@ The code in [main.py](main.py)  has a couple of alternate solutions for
 * second - uses elif, returns on each match
 * third - uses variable & elif, returns at end
 
-there is also a solution for `can_drive`
+there is also a solution for `can_drive()`
