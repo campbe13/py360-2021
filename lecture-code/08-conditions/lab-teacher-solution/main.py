@@ -13,16 +13,39 @@ test case
 Feb 1, 1998 results in Sunday
 '''
 def zeller(year, month, day):
-  y = year//100  # last 2 digits of year
-  c = year %  100  # first 2 digits of the year
+  c = year//100 
+  y = year %  100
   m = month -2
   if m < 1:
-    m = m - 1
+    m = m + 12
     y = y - 1 
-  
-  day_number = ( (26*m - 2) / 10 + day + y + y/4 + c/4 +5 *c) % 7
+  print ("testing y,c,m", y, c, m)
+  day_number = ( (26*m - 2) // 10 + day + y + y//4 + c//4 +5 *c) % 7
+  print("testing day#", day_number)
   return day_number
 
+'''
+formula in error due to using decimal division!
+'''
+def zeller_error(year, month, day):
+  c = year//100 
+  y = year %  100
+  m = month -2
+  if m < 1:
+    m = m + 12
+    y = y - 1 
+  print ("testing y,c,m", y, c, m)
+  day_number = ( (26*m - 2) / 10 + day + y + y/4 + c/4 +5 *c) % 7
+  print("testing day#", day_number)
+  return day_number
+'''
+given a number between 0 & 6 returns the associated day,
+param integer between 0 & 7
+returns name of the day
+test case
+0, returns Sunday
+5, returns Thursday
+'''
 #code the day_name function below
 def day_name(day_number):
   if day_number == 0:
