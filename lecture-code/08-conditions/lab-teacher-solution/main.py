@@ -10,7 +10,7 @@ returns:  numeric day of week 0-6
 
 (note y,c,m OKish ariable names, used for speed's sake taken directly from the formula given
 test case
-Feb 1, 1998 results in Sunday
+Feb 1, 1998 results in 0 (Sunday)
 '''
 def zeller(year, month, day):
   c = year//100 
@@ -44,29 +44,25 @@ param integer between 0 & 7
 returns name of the day
 test case
 0, returns Sunday
-5, returns Thursday
+5, returns Friday
 '''
-#code the day_name function below
 def day_name(day_number):
   if day_number == 0:
-    day =  "Saturday"
-    
+    day =  "Sunday" 
   elif day_number == 1:
-    day = "Sunday"
-    
+    day = "Monday"
   elif day_number == 2:
-    day =  "Monday"
-  elif day_number == 3:
     day =  "Tuesday"
-  elif day_number == 4:
+  elif day_number == 3:
     day =  "Wednesday"
-  elif day_number == 5:
+  elif day_number == 4:
     day =  "Thursday"
-  else:
+  elif day_number == 5:
     day =  "Friday"
+  else:
+    day =  "Saturday"
   return day
 
-#code the main function below
 '''
 main code drives the functions
 '''
