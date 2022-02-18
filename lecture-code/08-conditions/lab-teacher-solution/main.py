@@ -8,7 +8,8 @@ implement the zellers congruence algorithm
 params:   year, month, day
 returns:  numeric day of week 0-6
 
-(note y,c,m OKish ariable names, used for speed's sake taken directly from the formula given
+note y,c,m OKish ariable names, used for speed's sake taken directly from the formula given
+
 test case
 Feb 1, 1998 results in 0 (Sunday)
 '''
@@ -40,7 +41,7 @@ def zeller_error(year, month, day):
   return day_number
 '''
 given a number between 0 & 6 returns the associated day,
-param integer between 0 & 7
+param integer between 0 & 6
 returns name of the day
 test case
 0, returns Sunday
@@ -59,8 +60,10 @@ def day_name(day_number):
     day =  "Thursday"
   elif day_number == 5:
     day =  "Friday"
-  else:
+  elif day_number == 6;
     day =  "Saturday"
+  else:
+    day =  "Not a Day"
   return day
 
 '''
