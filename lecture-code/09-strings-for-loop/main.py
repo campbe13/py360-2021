@@ -26,8 +26,29 @@ def count_e(sentence):
 
   return count
 
+def reverse_word(word):
+  reversed = ''
+  for letter in word:
+    reversed = letter +reversed
+  return reversed
+def secondletters1(word):
+  secondstring = ''
+  ix = 0
+  for letter in word:
+    if ix%2 == 1:
+      secondstring = secondstring+ letter
+    ix += 1
+  return secondstring
+
+
 def main():
-  name = input("enter a sentence: ")
+  sentence = input("enter a sentence: ")
+  reverse = reverse_word(sentence)
+  print(f"sentence {sentence} reversed {reverse}")
+  
+  secondstr = secondletters1(sentence)
+  print(f"sentence {sentence} every 2nd letter {secondstr}")
+  
   num = count_e(name)
   print(f"sentence has {num} e's")
   
