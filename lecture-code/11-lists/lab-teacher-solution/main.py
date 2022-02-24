@@ -1,12 +1,34 @@
 # the usual stuff here (all names if team work)
- 
-import random
+# some lists for you to use
+'''
+using x in y to match awson
+'''
 def show_cegeps(cegeps):
   for cegep in cegeps:
-    if "awson" in cegep:
+    if "Dawson" in cegep:
       print(f"You can go to {cegep} the best")
     else:
       print(f"You can go to {cegep}")
+'''
+using or to match Dawson 
+'''
+def show_cegeps2(cegeps):
+  for cegep in cegeps:
+    if cegep == "Dawson" or cegep == "Dawson college":
+      print(f"You can go to {cegep} the best")
+    else:
+      print(f"You can go to {cegep}")
+'''
+using lower case & in to match Dawson 
+'''
+def show_cegeps3(cegeps):
+  for cegep in cegeps:
+    if "dawson" in cegep.lower():
+      print(f"You can go to {cegep} the best")
+    else:
+      print(f"You can go to {cegep}")
+
+import random
 
 def roll_10():
   rolls = []
@@ -53,8 +75,12 @@ def main():
   fruits.append('banana')
   print(fruits)
   
-  print("cegeps---------------------------------------")
+  print("cegeps1--------------------------------------")
   show_cegeps(cegeps)
+  print("cegeps2--------------------------------------")
+  show_cegeps2(cegeps)
+  print("cegeps3--------------------------------------")
+  show_cegeps3(cegeps)
   
   print("grades---------------------------------------")
   grade = largest_num(grades)
@@ -90,4 +116,3 @@ def main():
   
 if __name__ == "__main__":
     main()
-
