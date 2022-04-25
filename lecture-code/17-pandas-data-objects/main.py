@@ -7,6 +7,31 @@ import pandas as pd
 
 dogdf = pd.read_csv('dogs2017-wsize.csv')
 
+dogdf.info()
+# show the first few rows of the dataframe
+print(dogdf.head())
+print(dogdf.tail())  # last
+# show breed info
+dogdf.Breed
+print(dogdf.Breed.value_counts())
+
+
+
+### which is the most common breed (largest count)
+print(dogdf.Breed.value_counts())
+print("most common", dogdf.Breed.value_counts().max())
+print("most common",  dogdf['Breed'].value_counts().idxmax())
+### which is the most common name
+print("most common name")
+print("name", dogdf.DogName.value_counts().max())
+print("name",  dogdf.DogName.value_counts().idxmax())  # not an index because data is string
+### which is least most common name
+print("least common", dogdf.Breed.value_counts().min())
+print("least common",  dogdf['Breed'].value_counts().idxmin())
+
+print("least common", len(least_common))
+print("least common breed name", least_common)
+
 breed_series = dogdf.Breed.value_counts() 
 # go throught the series  & show breeds with only 1 
 for breed, count in breed_series.items():
