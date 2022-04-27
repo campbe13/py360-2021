@@ -54,15 +54,18 @@ Variable names follow the same convention as function names.
 * if a variable name is many words, use an underscore to separate
 ### Example
 ```python
-# good names
+# good names func
 area_right_triangle()
+# good names variable
 length
 height
-# constant
-GRAV_CONST   
-# bad names
+# constany
+GRAVITY   
+# bad names funcs
 a()
 area()
+# bad names variables
 l
+HEIGHT
 h
 ```
