@@ -44,6 +44,13 @@ print(add_five(num))
 [Python.org PEP8 Conventions](https://www.python.org/dev/peps/pep-0008/)
 * PEP8 is the Style Guide for Python Code
 * variables start with a lowercase letter 
+* Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+* Variable names should be lowercase, with words separated by underscores as necessary to improve readability.
+* class names use camel case and must begin with a captial letter  (CamelCase is where each word begins with a capital letter.)
+* Constants are written in all capital letters with underscores separating words. Examples include MAX_OVERFLOW and TOTAL.
+Variable names follow the same convention as function names.
+
+Variable names follow the same convention as function names.
 * if a variable name is many words, use an underscore to separate
 ### Example
 ```python
@@ -51,6 +58,8 @@ print(add_five(num))
 area_right_triangle()
 length
 height
+# constant
+GRAV_CONST   
 # bad names
 a()
 area()
